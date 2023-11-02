@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var trafficLightButton: UIButton!
     
-    private var colours: [UIView] = []
+    private var colors: [UIView] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,26 +22,26 @@ class ViewController: UIViewController {
     }
     
     private func configuratingUI() {
-        colours = trafficLightStackView.subviews
-        colours.forEach { $0.layer.cornerRadius = $0.layer.frame.width / 2}
+        colors = trafficLightStackView.subviews
+        colors.forEach { $0.layer.cornerRadius = $0.layer.frame.width / 2}
         trafficLightButton.layer.cornerRadius = 15
     }
     
     @IBAction func toggleLightButton(_ sender: UIButton) {
         trafficLightButton.setTitle("Turn on next light", for: .normal)
         
-        let currentLightIndex = colours.firstIndex(where: { $0.alpha == 1 })
+        let currentLightIndex = colors.firstIndex(where: { $0.alpha == 1 })
         
-        colours.forEach { $0.alpha = 0.5 }
+        colors.forEach { $0.alpha = 0.5 }
         
         if let currentLightIndex {
-            if currentLightIndex == colours.count - 1 {
-                colours[0].alpha = 1
+            if currentLightIndex == colors.count - 1 {
+                colors[0].alpha = 1
             } else {
-                colours[currentLightIndex + 1].alpha = 1
+                colors[currentLightIndex + 1].alpha = 1
             }
         } else {
-            colours[0].alpha = 1
+            colors[0].alpha = 1
         }
     }
 }
