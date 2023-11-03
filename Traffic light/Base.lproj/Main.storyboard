@@ -19,7 +19,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="NEB-5K-b7n">
                                 <rect key="frame" x="16" y="64" width="382" height="716"/>
                                 <subviews>
-                                    <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dlc-Nx-RHU">
+                                    <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dlc-Nx-RHU">
                                         <rect key="frame" x="75" y="0.0" width="232" height="232"/>
                                         <color key="backgroundColor" systemColor="systemRedColor"/>
                                         <constraints>
@@ -27,14 +27,14 @@
                                             <constraint firstAttribute="width" secondItem="dlc-Nx-RHU" secondAttribute="height" multiplier="1:1" id="baj-v2-NEM"/>
                                         </constraints>
                                     </view>
-                                    <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rMi-7B-YDx">
+                                    <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rMi-7B-YDx">
                                         <rect key="frame" x="75" y="242" width="232" height="232"/>
                                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="rMi-7B-YDx" secondAttribute="height" multiplier="1:1" id="63x-TQ-mHC"/>
                                         </constraints>
                                     </view>
-                                    <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Xt-PB-O27">
+                                    <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Xt-PB-O27">
                                         <rect key="frame" x="75" y="484" width="232" height="232"/>
                                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                                         <constraints>
