@@ -27,7 +27,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func toggleLightButton(_ sender: UIButton) {
-        trafficLightButton.setTitle("Turn on the next light", for: .normal)
+        sender.setTitle("Turn on the next light", for: .normal)
 
         guard let currentLightIndex = colors.firstIndex(where: {
             $0.alpha == 1
