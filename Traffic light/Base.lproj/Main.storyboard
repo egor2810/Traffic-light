@@ -23,7 +23,6 @@
                                         <rect key="frame" x="79.666666666666686" y="0.0" width="239" height="239"/>
                                         <color key="backgroundColor" systemColor="systemRedColor"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" id="Ad0-uh-6wY"/>
                                             <constraint firstAttribute="width" secondItem="dlc-Nx-RHU" secondAttribute="height" multiplier="1:1" id="baj-v2-NEM"/>
                                         </constraints>
                                     </view>
