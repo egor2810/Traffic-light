@@ -17,24 +17,24 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="NEB-5K-b7n">
-                                <rect key="frame" x="16" y="79" width="398" height="737"/>
+                                <rect key="frame" x="95.666666666666686" y="79" width="239" height="737"/>
                                 <subviews>
                                     <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dlc-Nx-RHU">
-                                        <rect key="frame" x="79.666666666666686" y="0.0" width="239" height="239"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="239" height="239"/>
                                         <color key="backgroundColor" systemColor="systemRedColor"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="dlc-Nx-RHU" secondAttribute="height" multiplier="1:1" id="baj-v2-NEM"/>
                                         </constraints>
                                     </view>
                                     <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rMi-7B-YDx">
-                                        <rect key="frame" x="79.666666666666686" y="249" width="239" height="239"/>
+                                        <rect key="frame" x="0.0" y="249" width="239" height="239"/>
                                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="rMi-7B-YDx" secondAttribute="height" multiplier="1:1" id="63x-TQ-mHC"/>
                                         </constraints>
                                     </view>
                                     <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Xt-PB-O27">
-                                        <rect key="frame" x="79.666666666666686" y="498" width="239" height="239"/>
+                                        <rect key="frame" x="0.0" y="498" width="239" height="239"/>
                                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="7Xt-PB-O27" secondAttribute="height" multiplier="1:1" id="jXI-Hs-WOA"/>
@@ -60,18 +60,19 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Turn on traffic light"/>
                                 <connections>
-                                    <action selector="toggleLightButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CpF-gk-yvI"/>
+                                    <action selector="toggleLightButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="9Sh-al-NJK"/>
                                 </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="NEB-5K-b7n" secondAttribute="trailing" constant="16" id="IYp-TX-dPq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="NEB-5K-b7n" secondAttribute="trailing" constant="16" id="IYp-TX-dPq"/>
+                            <constraint firstItem="NEB-5K-b7n" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PtN-kx-jO7"/>
                             <constraint firstItem="OXd-eg-rnp" firstAttribute="top" secondItem="NEB-5K-b7n" secondAttribute="bottom" constant="16" id="cwh-dl-JcV"/>
                             <constraint firstItem="OXd-eg-rnp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dye-l8-WQb"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="OXd-eg-rnp" secondAttribute="bottom" constant="16" id="jDg-en-Y8L"/>
-                            <constraint firstItem="NEB-5K-b7n" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="pf0-QE-dOl"/>
+                            <constraint firstItem="NEB-5K-b7n" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="pf0-QE-dOl"/>
                             <constraint firstItem="NEB-5K-b7n" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="r7c-Ef-h2c"/>
                         </constraints>
                     </view>
